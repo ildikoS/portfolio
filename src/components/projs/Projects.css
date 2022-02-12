@@ -1,0 +1,21 @@
+.p{
+    display: flex;
+    height: 100vh;
+    background-color:rgb(139, 141, 255);
+    justify-content: center;
+}
+
+.p-title{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.p-ps{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}

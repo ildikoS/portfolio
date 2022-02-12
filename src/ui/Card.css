@@ -1,0 +1,23 @@
+.e-item{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px #4e4e4e;
+    padding: 5px;
+    margin: 5px;
+}
+
+.e-item h1{
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.e-item h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.e-item div{
+    font-size: 15px;
+    font-weight: 300;
+}
