@@ -64,3 +64,23 @@
   color: #fff;
   font-size: 12px;
 }
+
+@media screen and (max-width: 480px) { 
+    .s-wrapper{
+        height: 95%;
+        width: 95%;
+    }
+
+    .s-title{
+        font-size: 20px;
+        margin-bottom: auto;
+    }
+
+    .s-langs, .s-techs{
+        font-size: 18px;
+    }
+
+    .skills {
+        width: calc(110% - 30px);
+    }
+}

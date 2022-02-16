@@ -25,7 +25,7 @@ export const skillsLangs = [
     {type: "JavaScript", level: 75},
     {type: "Python", level: 67},
     {type: "Java", level: 70},
-    {type: "C/C++", level: 36},
+    {type: "C/C++", level: 38},
     {type: "SQL", level: 71},
     {type: "HTML/CSS", level: 85},
 ];

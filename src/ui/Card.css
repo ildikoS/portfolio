@@ -21,3 +21,20 @@
     font-size: 15px;
     font-weight: 300;
 }
+
+@media screen and (max-width: 480px) { 
+    .e-item h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .e-item h2{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .e-item div{
+        font-size: 14px;
+        font-weight: 300;
+    }
+}

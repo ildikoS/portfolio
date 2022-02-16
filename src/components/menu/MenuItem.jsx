@@ -2,7 +2,7 @@ import { Link } from 'react-scroll'
 
 const MenuItem = ({to, title}) => {
     return (
-        <div className='m-item'>
+        <li className='m-item'>
             <Link 
                 activeClass="active"
                 to={to} 
@@ -11,7 +11,7 @@ const MenuItem = ({to, title}) => {
                 spy={true}> 
                     {title} 
             </Link>
-        </div>
+        </li>
     )
 }
 

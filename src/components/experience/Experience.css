@@ -46,3 +46,29 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 480px) { 
+    .e-wrapper{
+        height: 95%;
+        width: 95%;
+    }
+
+    .e-cards{
+        flex-direction: column;
+    }
+
+    .e-title{
+        font-size: 20px;
+        margin-bottom: auto;
+    }
+    
+    .e-top, .e-bottom{
+        padding: 5px;
+        margin: auto;
+    }
+    
+    .e-s, .e-w{
+        font-size: 18px;
+        margin-bottom: auto;
+    }
+}

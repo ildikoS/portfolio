@@ -1,6 +1,6 @@
 .m{
     background-color: rgba(240, 248, 255, 0.8);
-    height: 5vh;
+    height: 6vh;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -10,9 +10,14 @@
     z-index: 1000;
 }
 
+.m-ul{
+    display: flex;
+}
+
 .m-item{
     text-transform: uppercase;
     text-decoration: none;
+    list-style: none;
     margin: 10px;
     cursor: pointer;
     font-size: 16px;
@@ -41,3 +46,69 @@
 .m-item:hover::after{
     transform: scaleX(1);
 }
+
+.m-butt{
+    position: absolute;
+    display: none;
+    top: 2px;
+    right: 5px;
+    justify-content: right;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0.2rem 0.2rem 0.2rem grey;
+    border-radius: 5px;
+}
+
+.m-butt div{
+    background-color: rgb(70, 70, 70);
+    width: 20px;
+    height: 3px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 480px) { 
+    .m{
+        height: 40vh;
+        width: 27vh;
+        align-items: flex-start;
+        flex-direction: column;
+        overflow-x: hidden;
+        transition: 1s ease-out;
+    }
+
+    .m-ul{
+        position: absolute;
+        top: 40px;
+        display: block;
+        flex-direction: column;
+        transform: translateX(0%);
+        transition: 1s ease-out;
+    }
+
+    .m-butt{
+        display: block;
+    }
+
+    .m-closed{
+        width: 6vh;
+    }
+
+    .ul-closed{
+        transform: translateX(-100%);
+    }
+
+}
+
+.line1 {
+    transform: rotate(-45deg) translate(-4.8px,5px);
+}
+
+.line2 {
+    opacity: 0;
+}
+
+.line3 {
+    transform: rotate(45deg) translate(-6px,-7px);
+}
+
